@@ -108,6 +108,37 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textSize="18sp"
+                    android:text="Umur (th)"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:text=":"/>
+
+                <TextView
+                    android:id="@+id/txtAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="16"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
                     android:text="Email"/>
 
                 <TextView
@@ -187,19 +218,34 @@
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/btnEditNama"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="EDIT NAMA"/>
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnEditTelp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text="TELEPON"/>
+                <Button
+                    android:id="@+id/btnEditNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="EDIT NAMA"/>
+
+                <Button
+                    android:id="@+id/btnEditTelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TELEPON"/>
+
+                <Button
+                    android:id="@+id/btnAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="ABOUT"/>
+            </LinearLayout>
+
 
         </LinearLayout>
 

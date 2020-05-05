@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:id="@+id/profilImage"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_toEndOf="@id/profilImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_toEndOf="@id/profilImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama :"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isa Ardiansyah"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toEndOf="@id/profilImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isaardi21@gmail.com"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toEndOf="@id/profilImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Telp :"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="081359129022"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/profilImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_toEndOf="@id/profilImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jl. Argopuro Rt.07 Rw.05 Gg.02 No.12, Batu, Jawa Timur, Indonesia"
+                android:textSize="17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
